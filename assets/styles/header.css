@@ -1,0 +1,25 @@
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.header__nav--mobile {
+  display: none;
+}
+
+.header__btn {
+   display: none;
+}
+
+.header__nav-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all ease-in .2s;
+}
+
+.header__nav-btn:hover {
+  transform: scale(1.15);
+}
