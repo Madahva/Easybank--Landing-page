@@ -17,31 +17,35 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-
+  <script src="./assets/main.js" defer></script>
 </head>
 
 <body>
 
   <header class="header">
-    <div class="header--mobile">
-      <img src="assets/images/logo.svg" alt="Easybank Logo">
+    <img src="assets/images/logo.svg" alt="Easybank Logo">
 
-      <button class="header__nav-btn"><img src="./assets/images/icon-hamburger.svg" alt="Hamburger button"></button>
+    <button class="header__nav-btn--open"><img src="./assets/images/icon-hamburger.svg" alt="Hamburger button"></button>
+
+    <button class="header__nav-btn--close hidden"><img src="./assets/images/icon-close.svg"
+        alt="Hamburger button"></button>
+
+    <div class="header__modal hidden">
+      <nav class="header__modal-nav">
+        <a class="link" href="#">Home</a>
+        <a class="link" href="#">About</a>
+        <a class="link" href="#">Contact</a>
+        <a class="link" href="#">Blog</a>
+        <a class="link" href="#">Careers</a>
+      </nav>
+
     </div>
-
-    <nav class="header__nav--mobile">
-      <a href="">Home</a>
-      <a href="">About</a>
-      <a href="">Contact</a>
-      <a href="">Blog</a>
-      <a href="">Careers</a>
-    </nav>
 
 
     <button class="header__btn">Request Invite</button>
   </header>
 
-  <!--  <main>
+  <main>
     <section class="hero">
       <div class="hero__image">
         <img src="assets/images/bg-intro-desktop.svg" alt="Background">
@@ -183,7 +187,7 @@
       <button>Request Invite</button>
       <p>© Easybank. All Rights Reserved</p>
     </div>
-  </footer> -->
+  </footer>
 </body>
 
 </html>
