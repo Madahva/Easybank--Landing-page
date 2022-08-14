@@ -1,1 +1,1 @@
-# Easybank-Landing-page
+# Easybank - Landing page
