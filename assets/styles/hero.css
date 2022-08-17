@@ -1,0 +1,27 @@
+.hero {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__image {
+  z-index: -100;
+}
+
+.hero__image::before {
+  background-image: url(../images/bg-intro-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: '';
+  height: 70rem;
+  position: absolute;
+  right: 0;
+  top: -12rem;
+  width: 60rem;
+}
+
+.hero__image-mobile {
+  height: 48rem;
+  transform: translateY(-14rem);
+  width: 100%;
+}
