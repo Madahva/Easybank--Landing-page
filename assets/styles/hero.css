@@ -94,3 +94,51 @@
     justify-content: center;
   }
 }
+
+@media(min-width: 850px) {
+  .hero {
+    flex-direction: row-reverse;
+    gap: 4rem;
+    justify-content: center;
+  }
+
+  .hero__text {
+    align-items: start;
+    width: 40%;
+    text-align: left;
+    max-width: 375px;
+  }
+
+  .hero__image::before {
+    background-image: url(../images/bg-intro-desktop.svg);
+    width: 60%;
+    background-position: 20% 53%;
+    height: 60%;
+    top: 4rem;
+  }
+
+  .hero__image-mobile {
+    height: auto;
+    transform: translateY(-3rem);
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 900px) {
+  .hero__image::before {
+    width: 60%;
+    background-position: 50% 50%;
+    height: 70%;
+    top: 4rem;
+  }
+}
+
+@media(min-width: 1050px) {
+  .hero__image::before {
+    width: 50%;
+    height: 75%;
+    top: 3rem;
+    right: 8rem;
+  }
+}
