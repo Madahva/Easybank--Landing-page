@@ -45,10 +45,10 @@
   display: flex;
   flex-direction: column;
   left: 0rem;
+  margin-top: 3rem;
   padding: 1rem 0;
   top: 8rem;
   width: 100%;
-  margin-top: 3rem;
 }
 
 .hidden,
@@ -94,7 +94,7 @@
     margin-top: 1.5rem;
     padding: 0 0 1rem 0;
     text-decoration: none;
-    transition: all ease-in .2s;
+    transition: all ease-in .1s;
     user-select: none;
   }
 
@@ -105,20 +105,32 @@
   }
 
   .header__btn {
-    display: block;
-    background: rgb(49, 211, 92);
     background: linear-gradient(90deg, rgba(49, 211, 92, 1) 35%, rgba(43, 183, 218, 1) 100%);
+    background: rgb(49, 211, 92);
     border-radius: 1rem;
     border: none;
     color: white;
-    padding: .5rem 1rem;
     cursor: pointer;
-    font-weight: 400;
+    display: block;
     font-size: .9rem;
+    font-weight: 400;
+    padding: .5rem 1rem;
     transition: all ease-in .3s;
   }
 
   .header__btn:hover {
     opacity: .7;
+  }
+}
+
+@media (min-width: 900px) {
+  .header {
+    padding: 2rem 4rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header__nav--desktop {
+    gap: 2rem;
   }
 }
