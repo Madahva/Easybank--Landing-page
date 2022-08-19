@@ -2,6 +2,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   padding: 0 2rem;
 }
 
@@ -99,7 +100,7 @@
   .hero {
     flex-direction: row-reverse;
     gap: 4rem;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .hero__text {
@@ -119,7 +120,7 @@
 
   .hero__image-mobile {
     height: auto;
-    transform: translateY(-3rem);
+    transform: translate(9rem, -3rem);
     width: 100%;
   }
 }
