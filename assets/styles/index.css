@@ -9,8 +9,9 @@
 }
 
 body {
-  font-family: 'Public Sans', sans-serif;
   background-color: var(--Light-Grayish-Blue);
+  font-family: 'Public Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 .stop-scroll {
