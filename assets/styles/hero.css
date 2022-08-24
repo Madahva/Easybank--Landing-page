@@ -83,7 +83,7 @@
   }
 
   .hero {
-    padding: 0 4rem;
+    padding-inline: 4rem;
   }
 
   .hero__text {
