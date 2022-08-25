@@ -129,7 +129,11 @@
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1080px) {
+  .header {
+    padding-inline: 8rem;
+  }
+
   .header__nav--desktop {
     gap: 2rem;
   }
