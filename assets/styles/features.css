@@ -2,7 +2,7 @@
   align-items: center;
   background-color: var(--Light-Grayish-Blue);
   display: flex;
-  gap: 4rem;
+  gap: 6rem;
   flex-direction: column;
   justify-content: center;
   padding: 4rem 2rem;
@@ -12,7 +12,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
   justify-content: center;
   text-align: center;
 }
@@ -21,6 +21,7 @@
   color: var(--Dark-Blue);
   font-weight: 400;
   line-height: 2.5rem;
+  font-size: 2rem;
   margin: 0;
 }
 
