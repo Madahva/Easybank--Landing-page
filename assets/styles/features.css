@@ -98,6 +98,8 @@
 @media(min-width: 1080px) {
   .features {
     padding-inline: 8rem;
+    z-index: -9999;
+    position: relative;
   }
 
 }
