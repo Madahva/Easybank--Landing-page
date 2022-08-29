@@ -55,8 +55,8 @@
 }
 
 .hero__text button {
-  background: linear-gradient(90deg, rgba(49, 211, 92, 1) 35%, rgba(43, 183, 218, 1) 100%);
   background: rgb(49, 211, 92);
+  background: linear-gradient(90deg, rgba(49, 211, 92, 1) 35%, rgba(43, 183, 218, 1) 100%);
   border-radius: 1.5rem;
   border: none;
   color: white;
@@ -68,7 +68,7 @@
 }
 
 .hero__text button:hover {
-  opacity: .7;
+  background: linear-gradient(90deg, rgb(133, 199, 151) 35%, rgba(43, 183, 218, 1) 100%);
 }
 
 @media(min-width: 480px) {

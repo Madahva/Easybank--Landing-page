@@ -106,8 +106,8 @@
   }
 
   .header__btn {
-    background: linear-gradient(90deg, rgba(49, 211, 92, 1) 35%, rgba(43, 183, 218, 1) 100%);
     background: rgb(49, 211, 92);
+    background: linear-gradient(90deg, rgba(49, 211, 92, 1) 35%, rgba(43, 183, 218, 1) 100%);
     border-radius: 1rem;
     border: none;
     color: white;
@@ -120,7 +120,8 @@
   }
 
   .header__btn:hover {
-    opacity: .7;
+    background: linear-gradient(90deg, rgb(133, 199, 151) 35%, rgba(43, 183, 218, 1) 100%);
+
   }
 }
 
